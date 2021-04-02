@@ -8,33 +8,40 @@
     android:orientation="vertical">
 
     <EditText
+        android:id="@+id/et1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="https://www.google.com" />
 
     <Button
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="글자 나타내기" />
 
     <Button
+        android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="홈페이지 열기" />
 
     <RadioGroup
+        android:id="@+id/rg1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="wrap_content" >
         <RadioButton
+            android:id="@+id/rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Q(10)"
             android:layout_gravity="center"/>
         <RadioButton
+            android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="R(11)"
             android:layout_gravity="center"/>
+    </RadioGroup>
 
     <ImageView
         android:id="@+id/iv1"
