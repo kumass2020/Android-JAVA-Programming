@@ -7,7 +7,8 @@
     tools:context=".MainActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#FF0000">
+    android:background="#FF0000"
+    android:id="@+id/layout1">
 
 
     <LinearLayout
@@ -15,24 +16,27 @@
         android:layout_height="250dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:background="#0000FF" >
+        android:background="#0000FF"
+        android:id="@+id/layout2">
 
         <LinearLayout
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:background="#F0FF00" >
+            android:background="#F0FF00"
+            android:id="@+id/layout3">
 
             <LinearLayout
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:background="#000000" >
+                android:background="#000000"
+                android:id="@+id/layout4">
 
             </LinearLayout>
-
+        </LinearLayout>
     </LinearLayout>
 
 
