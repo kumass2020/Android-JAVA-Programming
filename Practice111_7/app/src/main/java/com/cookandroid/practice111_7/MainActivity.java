@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,11 +36,23 @@ public class MainActivity extends AppCompatActivity {
         rb2 = (RadioButton)findViewById(R.id.rb2);
         iv1 = (ImageView)findViewById(R.id.iv1);
 
+        btn1.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                String et_value = et1.getText().toString();
+                // 초기화한 AVD에서 작동
+                Toast.makeText(getApplicationContext(), et_value, Toast.LENGTH_SHORT).show();
+            }
+        });
+
         btn2.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                Intent mIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(String.valueOf(et1.getText())));
+                String et_value = et1.getText().toString();
+                Intent mIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(et_value));
+                startActivity(mIntent);
             }
         });
 
