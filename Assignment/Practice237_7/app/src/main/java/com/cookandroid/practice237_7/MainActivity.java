@@ -33,14 +33,24 @@ public class MainActivity extends AppCompatActivity {
 //        layout1.addView(layout2, params);
 
         LinearLayout layout3 = new LinearLayout(this);
-        layout3.setOrientation(LinearLayout.HORIZONTAL);
-        layout3.setBackgroundColor(Color.YELLOW);
+        layout3.setOrientation(LinearLayout.VERTICAL);
+//        layout3.setBackgroundColor(Color.YELLOW);
         layout2.addView(layout3, params);
 
         LinearLayout layout4 = new LinearLayout(this);
-        layout4.setOrientation(LinearLayout.HORIZONTAL);
-        layout4.setBackgroundColor(Color.BLACK);
-        layout3.addView(layout4, params);
+        layout4.setOrientation(LinearLayout.VERTICAL);
+//        layout4.setBackgroundColor(Color.BLACK);
+        layout2.addView(layout4, params);
+
+        LinearLayout layout5 = new LinearLayout(this);
+        layout5.setOrientation(LinearLayout.VERTICAL);
+        layout5.setBackgroundColor(Color.YELLOW);
+        layout4.addView(layout5, params);
+
+        LinearLayout layout6 = new LinearLayout(this);
+        layout6.setOrientation(LinearLayout.VERTICAL);
+        layout6.setBackgroundColor(Color.BLACK);
+        layout4.addView(layout6, params);
 
 
         LinearLayout layout1 = new LinearLayout(this);
