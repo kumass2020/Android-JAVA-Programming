@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="여기는 서랍 밖입니다." />
+
+    <SlidingDrawer
+        android:id="@+id/slidingdrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/handle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="서랍 손잡이" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00FF00"
+            android:orientation="vertical" >
+
+            <SlidingDrawer
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:content="@+id/content2"
+                android:handle="@+id/handle2"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/handle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="안 서랍 손잡이" />
+
+                <LinearLayout
+                    android:id="@+id/content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#8B00FF"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:text="여긴 두번째 서랍 안 입니다."
+                        android:gravity="center|bottom"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"/>
+                </LinearLayout>
+            </SlidingDrawer>
+        </LinearLayout>
+    </SlidingDrawer>
+
+</LinearLayout>
