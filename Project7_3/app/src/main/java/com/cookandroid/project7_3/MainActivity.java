@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                         etEmail = (EditText)dlgView.findViewById(R.id.etEmail);
 
                         tvName.setText(etName.getText().toString());
-                        tvEmail.setText( etEmail.getText().toString() );
+                        tvEmail.setText( etEmail.getText().toString());
                     }
                 });
 
