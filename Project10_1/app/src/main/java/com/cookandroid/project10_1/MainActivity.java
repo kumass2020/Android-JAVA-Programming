@@ -20,6 +20,14 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
+
+                Intent intent = null;
+
+                if (rbSecond.isChecked())
+                {
+                    intent = new Intent(getApplicationContext(), SecondActivity.class);
+                }
+
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(intent);
             }
