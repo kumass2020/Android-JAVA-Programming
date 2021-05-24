@@ -5,37 +5,8 @@
       <config />
     </shared>
   </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8adc9a72-83ae-4254-b1c7-7c83b88b21ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="61bb1a70-b1aa-4a8b-98e1-20314df290c9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +21,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1sr0O0frBj2RS8F2lKmS4e68g2n" />
+  <component name="ProjectId" id="1styCKSg12aWvzgWI54Pt3ySnRQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,8 +30,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project9_2" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\hoho\Development\github\Android-JAVA-Programming\Assignment-210521\Project9_2\app\src\main\res\drawable" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -70,8 +47,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="p387_practice5.app" />
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Project9_2.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -133,29 +110,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8adc9a72-83ae-4254-b1c7-7c83b88b21ea" name="Default Changelist" comment="" />
-      <created>1621615364309</created>
+      <changelist id="61bb1a70-b1aa-4a8b-98e1-20314df290c9" name="Default Changelist" comment="" />
+      <created>1621706051694</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1621615364309</updated>
+      <updated>1621706051694</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="-662" y="401" key="FileChooserDialogImpl" timestamp="1621840530440">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="1186" y="387" key="#Notifications" timestamp="1621707927723">
+      <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="-662" y="401" key="FileChooserDialogImpl/-1920.0.1920.1050/0.0.1920.1050@-1920.0.1920.1050" timestamp="1621840530440" />
+    <state x="1186" y="387" key="#Notifications/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1621707927723" />
+    <state x="1106" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1621707551787">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1106" y="230" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1621707551787" />
+    <state x="802" y="169" key="SettingsEditor" timestamp="1621707923548">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="802" y="169" key="SettingsEditor/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1621707923548" />
+    <state x="1095" y="302" key="chooseDestDirectoryDialog" timestamp="1621708032333">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1095" y="302" key="chooseDestDirectoryDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1621708032333" />
   </component>
 </project>
