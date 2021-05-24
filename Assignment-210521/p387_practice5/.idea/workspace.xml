@@ -25,7 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8adc9a72-83ae-4254-b1c7-7c83b88b21ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../p387_Practice6/app/src/main/java/com/cookandroid/p387_practice6/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../p387_Practice6/app/src/main/java/com/cookandroid/p387_practice6/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../425p_Practice6/app/src/main/res/drawable/pic9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
