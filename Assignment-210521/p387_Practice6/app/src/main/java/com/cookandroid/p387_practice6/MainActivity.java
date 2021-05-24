@@ -15,6 +15,9 @@ import android.view.MotionEvent;
 import android.view.SubMenu;
 import android.view.View;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static android.graphics.drawable.GradientDrawable.RECTANGLE;
 
 public class MainActivity extends AppCompatActivity {
@@ -69,7 +72,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private static class MyGraphicView extends View {
+        static List<MyShape> myshape = new ArrayList<MyShape>();
         int startX = -1, startY = -1, stopX = -1, stopY = -1;
+        int i = 0;
         public MyGraphicView(Context context) {
             super(context);
         }
@@ -82,9 +87,14 @@ public class MainActivity extends AppCompatActivity {
                     startY = (int)event.getY();
                     break;
                 case MotionEvent.ACTION_MOVE:
+                    stopX = (int)event.getX();
+                    stopY = (int)event.getY();
+                    this.invalidate();
+                    break;
                 case MotionEvent.ACTION_UP:
                     stopX = (int)event.getX();
                     stopY = (int)event.getY();
+                    myshape.add(new MyShape(curShape, startX, startY, stopX, stopY, curColor));
                     this.invalidate();
                     break;
             }
@@ -99,6 +109,24 @@ public class MainActivity extends AppCompatActivity {
             paint.setStyle(Paint.Style.STROKE);
             paint.setColor(curColor);
 
+            // 도형 남기기
+            for(int i=0; i < myshape.size(); i++) {
+                paint.setColor(myshape.get(i).curColor);
+                switch(myshape.get(i).curShape) {
+                    case LINE:
+                        canvas.drawLine(myshape.get(i).startX, myshape.get(i).startY, myshape.get(i).stopX, myshape.get(i).stopY, paint);
+                        break;
+                    case CIRCLE:
+                        int radius = (int)Math.sqrt(Math.pow(myshape.get(i).stopX - myshape.get(i).startX, 2) + Math.pow(myshape.get(i).stopY - myshape.get(i).startY, 2));
+                        canvas.drawCircle(myshape.get(i).startX, myshape.get(i).startY, radius, paint);
+                        break;
+                    case RECTANGLE:
+                        Rect rect = new Rect(myshape.get(i).startX, myshape.get(i).startY, myshape.get(i).stopX, myshape.get(i).stopY);
+                        canvas.drawRect(rect, paint);
+                        break;
+                }
+            }
+
             switch(curShape) {
                 case LINE:
                     canvas.drawLine(startX, startY, stopX, stopY, paint);
@@ -112,6 +140,21 @@ public class MainActivity extends AppCompatActivity {
                     canvas.drawRect(rect, paint);
                     break;
             }
+        }
+    }
+
+    private static class MyShape {
+        int curShape;
+        int startX, startY, stopX, stopY;
+        int curColor;
+
+        public MyShape(int curShape, int startX, int startY, int stopX, int stopY, int curColor) {
+            this.curShape = curShape;
+            this.startX = startX;
+            this.startY = startY;
+            this.stopX = stopX;
+            this.stopY = stopY;
+            this.curColor = curColor;
         }
     }
 
